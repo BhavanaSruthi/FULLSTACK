@@ -1,0 +1,51 @@
+.slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.caption {
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  padding: 8px 12px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 600px;
+  top: 480px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.5s;
+}
+.text {
+  position: absolute;
+  top: 380px;
+  left: 60px;
+  color: white;
+  font-weight: bold;
+}
+.active,
+.dot:hover {
+  background-color: #ccc;
+}
+.next {
+  background-color: orange;
+  border: orange;
+  position: absolute;
+  top: 425px;
+  left: 200px;
+  padding: 35px 30px;
+}

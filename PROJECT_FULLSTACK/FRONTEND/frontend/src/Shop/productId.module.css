@@ -1,0 +1,21 @@
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.5s;
+  position: relative;
+}
+.btn {
+  color: white;
+  background-color: rgb(19, 19, 81);
+  border: rgb(19, 19, 81);
+  padding: 10px 30px;
+}
+.tick {
+  position: "absolute";
+  color: white;
+}

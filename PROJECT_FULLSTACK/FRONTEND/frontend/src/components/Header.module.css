@@ -1,0 +1,14 @@
+.icon {
+  color: black;
+  font-weight: bold;
+}
+.icon:hover {
+  color: black;
+}
+.toggleicon {
+  color: white;
+  background-color: rgb(19, 19, 81);
+  padding: 15px;
+  margin: 0;
+  margin-left: 30px;
+}
